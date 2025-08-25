@@ -1,0 +1,64 @@
+@font-face{
+    font-family: Inter;
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+:root {
+    --grey-900: #141414;
+    --grey-800: #1F1F1F;
+    --grey-700: #333333;
+    --green: #C4F82A;
+    --white: #FFFFFF;
+}
+
+.text-preset-1 {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.text-preset-2 {
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.text-preset-2-bold {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+.button {
+    width: 304px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: var(--grey-700);
+    color: var(--white);
+}
+
+.button:hover {
+    width: 304px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: var(--green);
+    color: var(--grey-700);
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+
+}
